@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #131613;
+    overflow: auto;
+    padding: 24px;
+    height: 70px;
+  }
+  
+  .menu {
+    padding: 0 30px;
+    color: #dbb6b6;
+    font-size: larger;
+  }
