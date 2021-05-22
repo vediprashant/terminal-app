@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is an APP to inspect what is getting posted to a specific endpoint and able to create new one's for testing puepose
+
+Live Demo - [Demo Link](https://terminalapp.netlify.app/)
+API Link - (https://terminalurl.herokuapp.com/)
+
+### Screenshots
+
+<img src="https://user-images.githubusercontent.com/42546403/119237335-eac20780-bb59-11eb-8e95-ffad003fad5c.png" />
+<img src="https://user-images.githubusercontent.com/42546403/119237338-ebf33480-bb59-11eb-8549-6724085369c3.png" />
+
 ## Available Scripts
 
 In the project directory, you can run:
