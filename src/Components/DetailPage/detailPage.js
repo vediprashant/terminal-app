@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import { Icon, Input, Button, Segment, Divider, Header, Container, List } from 'semantic-ui-react'
 import "./detailPage.css"
 import urldetail from "../../Services/endpointDetails"
+import API_URL from "../../Constants/urlConstants";
 
 
 const DetailPage = () => {
@@ -27,7 +28,7 @@ const DetailPage = () => {
             }
             if(fetchedDetails.length==0){
                 setError(true)
-                setMessage('No data exist for this URL. Please provide valid URL or Post data to this Endpoint')
+                setMessage(`No data exist for this URL. Please provide valid URL or Post data to ${API_URL.EndpointDetailUrl('<URL>')} this Endpoint`)
             }
         }
     }
